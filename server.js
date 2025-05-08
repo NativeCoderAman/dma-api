@@ -4,7 +4,7 @@ const cors = require('cors');
 const admin = require('firebase-admin');
 
 const app = express();
-const PORT = 8000;
+
 
 const serviceAccount = require('./serviceAccountKey.json');
 
